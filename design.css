@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Bricolage Grotesque", sans-serif;
+html,body{
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+    font-family: "Bricolage Grotesque", sans-serif;
     background: #fefae0;
 }
 h1{
@@ -21,10 +23,11 @@ h2{
 #container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
+    padding: 1em;
 }
 #cell-container{
     display: grid;
