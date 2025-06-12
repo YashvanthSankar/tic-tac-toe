@@ -56,7 +56,7 @@ function checkWinner() {
   }
 
   if (win) {
-    text.innerText = `${currentPlayer} wins!!!`;
+    text.innerText = `Player ${currentPlayer} wins!!!`;
     isGameOn = false;
   } else if (!grid.includes("")) {
     text.innerText = "It's a draw!";
